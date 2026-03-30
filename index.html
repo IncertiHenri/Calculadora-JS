@@ -9,14 +9,24 @@
 
 <body>
 
-    <script src="script.js"></script>
-    <input id="valor1"></input>
-    <input id="valor2"></input>
-    <div>
-        <button class="botao" onclick="soma()">Soma</button>
-        <button class="botao" onclick="subtracao()">Subtração</button>
-        <button class="botao" onclick="divisao()">divisao</button>
-        <button class="botao" onclick="multiplicacao()">multiplicação</button>
+    <header>
+        <h1>Calculadora simples</h1>
+    </header>
+
+    <div id="calculadora">
+
+        <script src="script.js"></script>
+        <div class="escrita">Espaço para inserir os valores</div>
+        <input class="campo" id="valor1"></input>
+        <input class="campo" id="valor2"></input>
+        <div>
+            <div class="escrita">Espaço para escolher a equação</div>
+            <button class="botao" onclick="soma()">Soma</button>
+            <button class="botao" onclick="subtracao()">Subtração</button>
+            <button class="botao" onclick="divisao()">divisao</button>
+            <button class="botao" onclick="multiplicacao()">multiplicação</button>
+
+        </div>
     </div>
 
 </body>

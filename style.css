@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(229, 255, 207);
+}
+
+header {
+    display: flex;
+    padding: 20px;
+    background-color: rgb(12, 49, 37);
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+
+#calculadora {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    margin: 10px;
+    background-color: rgb(0, 87, 0);
+}
+
+.botao {
+    padding: 10px;
+    border: 3px solid rgb(12, 49, 37);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(250, 255, 246);
+}
+
+.campo {
+    border: 3px solid rgb(12, 49, 37);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(250, 255, 246);
+}
+
+.escrita {
+    margin: 5px;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
