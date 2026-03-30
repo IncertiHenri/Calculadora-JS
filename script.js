@@ -1,9 +1,9 @@
-function soma(){
+function soma() {
     let valor1 = document.getElementById("valor1").value;
     let valor2 = document.getElementById("valor2").value;
     let soma = 0;
 
-    if(valor1 === "" || valor2 === ""){
+    if (valor1 === "" || valor2 === "") {
         alert("Preencha todos os campos!");
         return;
     }
@@ -11,21 +11,21 @@ function soma(){
     valor1 = parseFloat(document.getElementById("valor1").value);
     valor2 = parseFloat(document.getElementById("valor2").value);
 
-    if(isNaN(valor1)||isNaN(valor2)){
+    if (isNaN(valor1) || isNaN(valor2)) {
         alert("Algum valor é inválido, insira outro valor em números!");
     } else {
-        soma = (valor1+valor2);
-        alert("O resultado da soma é: "+ soma);
+        soma = (valor1 + valor2);
+        alert("O resultado da soma é: " + soma);
     }
 
 }
 
-function subtracao(){
-        let valor1 = document.getElementById("valor1").value;
+function subtracao() {
+    let valor1 = document.getElementById("valor1").value;
     let valor2 = document.getElementById("valor2").value;
     let subtracao = 0;
 
-    if(valor1 === "" || valor2 === ""){
+    if (valor1 === "" || valor2 === "") {
         alert("Preencha todos os campos!");
         return;
     }
@@ -33,21 +33,21 @@ function subtracao(){
     valor1 = parseFloat(document.getElementById("valor1").value);
     valor2 = parseFloat(document.getElementById("valor2").value);
 
-    if(isNaN(valor1)||isNaN(valor2)){
+    if (isNaN(valor1) || isNaN(valor2)) {
         alert("Algum valor é inválido, insira outro valor em números!");
     } else {
-        subtracao = (valor1-valor2);
+        subtracao = (valor1 - valor2);
         alert("O resultado da subtração é: " + subtracao);
     }
 
 }
 
-function divisao(){
+function divisao() {
     let valor1 = document.getElementById("valor1").value;
     let valor2 = document.getElementById("valor2").value;
     let divisao = 0;
 
-    if(valor1 === "" || valor2 === ""){
+    if (valor1 === "" || valor2 === "") {
         alert("Preencha todos os campos!");
         return;
     }
@@ -55,23 +55,23 @@ function divisao(){
     valor1 = parseFloat(document.getElementById("valor1").value);
     valor2 = parseFloat(document.getElementById("valor2").value);
 
-    if(valor1 === 0 || valor2 === 0){
+    if (valor1 === 0 || valor2 === 0) {
         alert("A divisão por 0 não é possível, insira outro valor dirente de 0!");
-    } else if(isNaN(valor1)||isNaN(valor2)){
+    } else if (isNaN(valor1) || isNaN(valor2)) {
         alert("Algum valor é inválido, insira outro valor em números!");
-    } else if(!isNaN(valor1)||!isNaN(valor2)){
-        divisao = (valor1/valor2);
+    } else if (!isNaN(valor1) || !isNaN(valor2)) {
+        divisao = (valor1 / valor2);
         alert("O resultado da divisão é: " + divisao);
     }
 
 }
 
-function multiplicacao(){
+function multiplicacao() {
     let valor1 = document.getElementById("valor1").value;
     let valor2 = document.getElementById("valor2").value;
     let multiplicacao = 0;
 
-    if(valor1 === "" || valor2 === ""){
+    if (valor1 === "" || valor2 === "") {
         alert("Preencha todos os campos!");
         return;
     }
@@ -79,10 +79,10 @@ function multiplicacao(){
     valor1 = parseFloat(document.getElementById("valor1").value);
     valor2 = parseFloat(document.getElementById("valor2").value);
 
-    if(isNaN(valor1)||isNaN(valor2)){
+    if (isNaN(valor1) || isNaN(valor2)) {
         alert("Algum valor é inválido, insira outro valor em números!");
     } else {
-        multiplicacao = (valor1*valor2);
+        multiplicacao = (valor1 * valor2);
         alert("O resultado da multiplicação é: " + multiplicacao);
     }
 
